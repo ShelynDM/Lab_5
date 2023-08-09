@@ -1,0 +1,101 @@
+
+body {
+    background-image: linear-gradient(to bottom right, white, gray, rgb(7, 134, 184));
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 1000px;
+    margin: auto;
+}
+
+
+
+header a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 150px;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: solid 5px black;
+    text-decoration: none;
+    color:black;
+}
+
+header a:hover {
+    color:  rgb(7, 134, 184);
+}
+
+header div img {
+    height: 100px;
+    width: 100px;
+    padding: 25px;
+
+}
+
+h1 {
+    width: 850px;
+    font-size: 70px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 50px;
+    text-align: center;
+    margin: 20px 0px 20px 0;
+}
+
+.interactive {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 20px 0px 20px 0px;
+    height: 75px;
+}
+input, button {
+    height: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.interactive p {
+    text-align: center;
+    width: 100px;
+    font-size: 60px;
+
+}
+
+#answer:hover {
+    background-color: rgb(7, 134, 184);
+}
+
+
+.output {
+    position: relative;
+}
+
+.output p {
+    display: flex;
+    font-size: 50px;
+    color: aliceblue;
+    position: absolute;
+    height: 400px;
+    width: 1000px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+footer {
+    text-align: center;
+    border-top: solid 5px black;
+    margin-top: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
